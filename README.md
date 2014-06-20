@@ -5,7 +5,7 @@ Learn iOS from the ground up. Starting with the basics, the team at 52inc will t
 
 Every week we’ll release a new video showing you how to accomplish something great in iOS, with each episode building on the last. At the end of every month we'll all gather to build a group project that uses everything you’ve learned in the videos. Ask questions and get answers from professional iOS developers and designers while learning about what everyone else is building in Columbia.
 
-Whether you're just starting out or already know some Objective-C, together we’ll learn how to make great iOS apps that will wow your users. We invite you to join us each week online starting Monday, June 16th at 52inc.co/learn-ios. Join us at IT-oLogy in Columbia for our first meetup event on Tuesday, July 8th from 6:00pm-8:00pm and again on the second Tuesday of each month.
+Whether you're just starting out or already know some Objective-C, together we’ll learn how to make great iOS apps that will wow your users. We invite you to join us each week online starting Monday, June 16th at 52inc.co/learn-ios. Join us at [IT-oLogy](http://it-ology.org) in Columbia for our first meetup event on Tuesday, July 8th from 6:00pm-8:00pm and again on the second Tuesday of each month.
 
 [More information on series](http://52inc.co/learn-ios)
 
