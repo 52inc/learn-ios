@@ -12,7 +12,7 @@ Whether you're just starting out or already know some Objective-C, together weâ€
 ### Video Links
 [Week 1 - An Introduction To Objective-C for Programmers](http://www.52inc.co/ios-videos/2014/6/17/week-1-an-into-to-objective-c)
 
-Week 2 - The App Life Cycle (Coming June 23rd, 2014)
+[Week 2 - The App Life Cycle](http://www.52inc.co/ios-videos/2014/6/22/week-2-the-app-life-cycle)
 
 
 ###About 52inc
