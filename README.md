@@ -14,6 +14,8 @@ Whether you're just starting out or already know some Objective-C, together weâ€
 
 [Week 2 - The App Life Cycle](http://www.52inc.co/ios-videos/2014/6/22/week-2-the-app-life-cycle)
 
+Week 3 - An Introduction To Interface Builder and UIKit (Coming June 30)
+
 
 ###About 52inc
 [52inc](http://52inc.co) is a small team based out of South Carolina that specializes in rapid, high-quality app development. Our team of digital natives comes from a wide range of backgrounds and is brought together by an obsession with moving the tech field forward. We are hackers, thinkers, designers, and coders. We focus on creating an experience that is easy to understand and delightful to use.
