@@ -14,7 +14,9 @@ Whether you're just starting out or already know some Objective-C, together weâ€
 
 [Week 2 - The App Life Cycle](http://www.52inc.co/ios-videos/2014/6/22/week-2-the-app-life-cycle)
 
-Week 3 - An Introduction To Interface Builder and UIKit (Coming June 30)
+[Week 3 - An Introduction To Interface Builder and UIKit](http://www.52inc.co/ios-videos/2014/7/2/week-3-an-introduction-to-interface-builder-and-uikit)
+
+Week 4 - View Controller Navigation and Presentation (Coming July 7th)
 
 
 ###About 52inc
