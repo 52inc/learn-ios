@@ -16,7 +16,7 @@ Whether you're just starting out or already know some Objective-C, together weâ€
 
 [Week 3 - An Introduction To Interface Builder and UIKit](http://www.52inc.co/ios-videos/2014/7/2/week-3-an-introduction-to-interface-builder-and-uikit)
 
-Week 4 - View Controller Navigation and Presentation (Coming July 7th)
+Week 4 - Navigation and TabBar Controllers (Coming July 7th-8th)
 
 
 ###About 52inc
