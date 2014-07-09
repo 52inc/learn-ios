@@ -1,0 +1,53 @@
+{
+    "alliance_members" : [
+                          {
+                          "name" : "Luke Skywalker",
+                          "description" : "Legendary war hero and Jedi",
+                          "profile_image" : "avatarLuke"
+                          },
+                          {
+                          "name" : "Leia Organa",
+                          "description" : "Key member of Rebel Alliance",
+                          "profile_image" : "avatarLeia"
+                          },
+                          {
+                          "name" : "Han Solo",
+                          "description" : "Smuggler from planet Corellia",
+                          "profile_image" : "avatarHan"
+                          },
+                          {
+                          "name" : "Chewbacca",
+                          "description" : "Famous wookie from Kashyyyk",
+                          "profile_image" : "avatarChewbacca"
+                          },
+                          {
+                          "name" : "C-3PO",
+                          "description" : "Etiquette and protocol droid",
+                          "profile_image" : "avatarC3PO"
+                          },
+                          {
+                          "name" : "R2-D2",
+                          "description" : "Resourceful astromech droid",
+                          "profile_image" : "avatarR2D2"
+                          },
+                          {
+                          "name" : "Yoda",
+                          "description" : "Renowned and powerful mentor",
+                          "profile_image" : "avatarYoda"
+                          },
+                          {
+                          "name" : "Obi-Wan Kenobi",
+                          "description" : "Jedi Master and Luke's mentor",
+                          "profile_image" : "avatarObiwan"
+                          },
+                          {
+                          "name" : "Lando Calrissian",
+                          "description" : "Gambler, smuggler, and general",
+                          "profile_image" : "avatarLando"
+                          },
+                          {
+                          "name" : "Gial Ackbar",
+                          "description" : "Knows a trap from a mile away",
+                          "profile_image" : "avatarChewbacca"
+                          }]
+}
