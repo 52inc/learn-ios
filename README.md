@@ -20,6 +20,8 @@ Week 4 - Navigation and TabBar Controllers (Coming Soon)
 
 [Workshop 1 - An Introduction To Table Views](https://52inc.co/ios-videos/2014/7/8/workshop-1)
 
+Week 5 - Sending Mail and Messages (Coming Soon)
+
 
 ###About 52inc
 [52inc](http://52inc.co) is a small team based out of South Carolina that specializes in rapid, high-quality app development. Our team of digital natives comes from a wide range of backgrounds and is brought together by an obsession with moving the tech field forward. We are hackers, thinkers, designers, and coders. We focus on creating an experience that is easy to understand and delightful to use.
