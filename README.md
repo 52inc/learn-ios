@@ -16,13 +16,13 @@ Whether you're just starting out or already know some Objective-C, together weâ€
 
 [Week 3 - An Introduction To Interface Builder and UIKit](http://www.52inc.co/ios-videos/2014/7/2/week-3-an-introduction-to-interface-builder-and-uikit)
 
-[Week 4 - Navigation and TabBar Controllers](https://chris-thibault.squarespace.com/ios-videos/2014/7/25/week-4-navigation-and-tabbar-controllers)
+[Week 4 - Navigation and TabBar Controllers](http://chris-thibault.squarespace.com/ios-videos/2014/7/25/week-4-navigation-and-tabbar-controllers)
 
-[Workshop 1 - An Introduction To Table Views](https://52inc.co/ios-videos/2014/7/8/workshop-1)
+[Workshop 1 - An Introduction To Table Views](http://52inc.co/ios-videos/2014/7/8/workshop-1)
 
-[Week 5 - Sending Mail and Messages](https://chris-thibault.squarespace.com/ios-videos/2014/7/25/week-5-sending-mail-and-messages)
+[Week 5 - Sending Mail and Messages](http://chris-thibault.squarespace.com/ios-videos/2014/7/25/week-5-sending-mail-and-messages)
 
-[Week 6 - Touches and Gestures](https://www.52inc.co/ios-videos/2014/7/30/week-6-touches-and-gestures)
+[Week 6 - Touches and Gestures](http://www.52inc.co/ios-videos/2014/7/30/week-6-touches-and-gestures)
 
 
 ###About 52inc
