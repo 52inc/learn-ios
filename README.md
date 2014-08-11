@@ -26,6 +26,8 @@ Whether you're just starting out or already know some Objective-C, together weâ€
 
 Week 7 - Introduction to Quartz (Coming Soon)
 
+Week 8 - Deploying to a Device: Certificates and Provisioning Profiles (Coming Soon)
+
 
 ###About 52inc
 [52inc](http://52inc.co) is a small team based out of South Carolina that specializes in rapid, high-quality app development. Our team of digital natives comes from a wide range of backgrounds and is brought together by an obsession with moving the tech field forward. We are hackers, thinkers, designers, and coders. We focus on creating an experience that is easy to understand and delightful to use.

@@ -1,0 +1,1 @@
+No code for this week, it's all a video tutorial. See Week 8 - Deploying to a Device: Certificates and Provisioning Profiles.
