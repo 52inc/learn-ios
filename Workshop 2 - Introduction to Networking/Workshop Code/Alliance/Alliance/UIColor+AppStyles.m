@@ -15,6 +15,11 @@
     return RGB(0, 160, 252);
 }
 
++(UIColor*)empireTitleColor
+{
+    return RGB(255, 59, 48);
+}
+
 +(UIColor*)allianceSubtitleColor
 {
     return RGB(136, 136, 136);

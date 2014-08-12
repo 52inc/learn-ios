@@ -15,6 +15,8 @@
 
 +(UIColor*)allianceTitleColor;
 
++(UIColor*)empireTitleColor;
+
 +(UIColor*)allianceSubtitleColor;
 
 +(UIColor*)allianceCellBackgroundColor;

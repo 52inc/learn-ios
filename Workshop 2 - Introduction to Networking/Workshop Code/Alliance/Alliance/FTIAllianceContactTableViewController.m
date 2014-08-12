@@ -189,6 +189,14 @@
     cell.textLabel.text = nil;
     cell.detailTextLabel.text = nil;
     
+    if (_isStarWarsAlliance) {
+        cell.textLabel.textColor = [UIColor allianceTitleColor];
+    }
+    else
+    {
+        cell.textLabel.textColor = [UIColor empireTitleColor];
+    }
+    
     switch (indexPath.section) {
         case AllianceContactListMembersSection:
         {
