@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7E49C4F6-163A-4C8B-8168-9E5E20929D9D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Alliance</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6FC0876F-28AC-4538-BEF3-F58649DEABCE</key>
+		<string>https://github.com/brendan09/learn-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Workshop 2 - Introduction to Networking/Workshop Code/Alliance/Alliance.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6FC0876F-28AC-4538-BEF3-F58649DEABCE</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/brendan09/learn-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6FC0876F-28AC-4538-BEF3-F58649DEABCE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6FC0876F-28AC-4538-BEF3-F58649DEABCE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>learn-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

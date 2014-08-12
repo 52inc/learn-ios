@@ -1,0 +1,54 @@
+{
+    "alliance_members" : [
+                          {
+                          "name" : "Darth Vader",
+                          "description" : "Anakin Skywalker, Sith Lord",
+                          "profile_image" : "avatarVader.png"
+                          },
+                          {
+                          "name" : "Emperor Palpatine",
+                          "description" : "Emperor of the Galactic Empire",
+                          "profile_image" : "avatarPalpatine.png"
+                          },
+                          {
+                          "name" : "Boba Fett",
+                          "description" : "Warrior and bounty hunter",
+                          "profile_image" : "avatarBoba.png"
+                          },
+                          {
+                          "name" : "Jabba Desilijic Tiure",
+                          "description" : "Crime lord, aka Jabba the Hutt",
+                          "profile_image" : "avatarJabba.png"
+                          },
+                          {
+                          "name" : "TK-421",
+                          "description" : "Stormtrooper on the Death Star",
+                          "profile_image" : "avatar421.png"
+                          },
+                          {
+                          "name" : "Wilhuff Tarkin",
+                          "description" : "Ruthless, powerful Grand Moff",
+                          "profile_image" : "avatarTarkin.png"
+                          },
+                          {
+                          "name" : "Firmus Piett",
+                          "description" : "Imperial death squad admiral",
+                          "profile_image" : "avatarPiett.png"
+                          },
+                          {
+                          "name" : "Red Guards",
+                          "description" : "Elite organization of bodyguards",
+                          "profile_image" : "avatarRedguard.png"
+                          },
+                          {
+                          "name" : "General Veers",
+                          "description" : "General, led assault on Hoth",
+                          "profile_image" : "avatarVeers.png"
+                          },
+                          {
+                          "name" : "Bib Fortuna",
+                          "description" : "Majordomo to Jabba the Hutt",
+                          "profile_image" : "avatarFortuna.png"
+                          }],
+    "alliance_name" : "The Empire"
+}

@@ -80,7 +80,7 @@ static FTISessionManager *sharedSesson;
  */
 -(void)updateEmpireFighters {
     
-    NSURL *url = [self APIURLForEndpoint:@"StarWarsMembers.json"];
+    NSURL *url = [self APIURLForEndpoint:@"EmpireMembers.json"];
     
     [[[NSURLSession sharedSession] dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
        
@@ -123,7 +123,7 @@ static FTISessionManager *sharedSesson;
  */
 -(void)updateAllianceFighters {
     
-    NSURL *url = [self APIURLForEndpoint:@"StarWarsMembers.json"];
+    NSURL *url = [self APIURLForEndpoint:@"AllianceMembers.json"];
     
     [[[NSURLSession sharedSession] dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         
