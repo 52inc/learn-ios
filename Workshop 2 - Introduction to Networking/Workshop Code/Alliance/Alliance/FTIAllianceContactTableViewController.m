@@ -91,7 +91,7 @@
 {
     if (_isStarWarsAlliance) {
         
-        AllianceTeam *team = [[FTISessionManager sharedSession] starWarsTeam];
+        AllianceTeam *team = [[FTISessionManager sharedSession] allianceFighters];
         
         _allianceMembers = [team allianceMembers];
         
@@ -105,7 +105,7 @@
     }
     else
     {
-        AllianceTeam *team = [[FTISessionManager sharedSession] otherTeam];
+        AllianceTeam *team = [[FTISessionManager sharedSession] empireFighters];
         
         _allianceMembers = [team allianceMembers];
         
@@ -114,7 +114,7 @@
         }
         else
         {
-            self.title = @"The Alliance";
+            self.title = @"The Empire";
         }
     }
 
@@ -199,7 +199,7 @@
             
             cell.imageView.image = nil;
             
-            //Asynchronous network images! NOTE: There are tons of libraries to do this better
+            //Asynchronous network images! NOTE: There are tons of libraries to do this better and cache more efficiently.
             [[[NSURLSession sharedSession] dataTaskWithURL:[[FTISessionManager sharedSession] APIURLForEndpoint:currentProfile.profileImage] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
                
                 UIImage *image = [UIImage imageWithData:data scale:2.0];

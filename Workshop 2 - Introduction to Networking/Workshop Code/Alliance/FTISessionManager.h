@@ -18,13 +18,13 @@ static NSString *const kFTISessionManagerDidUpdateAllianceMembers = @"kFTISessio
 
 @interface FTISessionManager : NSObject
 
-@property(nonatomic,strong,readonly)AllianceTeam *otherTeam;
-@property(nonatomic,strong,readonly)AllianceTeam *starWarsTeam;
+@property(nonatomic,strong,readonly)AllianceTeam *empireFighters;
+@property(nonatomic,strong,readonly)AllianceTeam *allianceFighters;
 
 +(FTISessionManager*)sharedSession;
 
 -(NSURL*)APIURLForEndpoint:(NSString*)endpoint;
 
--(void)updateOtherMembers;
--(void)updateStarWarsMembers;
+-(void)updateEmpireFighters;
+-(void)updateAllianceFighters;
 @end

@@ -16,8 +16,8 @@ static FTISessionManager *sharedSesson;
 @implementation FTISessionManager
 
 //Because we overrode the getter, auto-synthesis didn't have anything to generate. We need to manually synthesize the instance variable version of our properties like we used to in the olden' days.
-@synthesize otherTeam = _otherTeam;
-@synthesize starWarsTeam = _starWarsTeam;
+@synthesize empireFighters = _empireFighters;
+@synthesize allianceFighters = _allianceFighters;
 
 /**
  *  Generate / retreive the singleton instance of the SessionManager
@@ -46,39 +46,39 @@ static FTISessionManager *sharedSesson;
 }
 
 /**
- *  Retrieve the members of the other team. Load them if not already loaded from the network.
+ *  Retrieve the members of The Empire team. Load them if not already loaded from the network.
  *
  *  @return An array of the other team's members.
  */
--(AllianceTeam *)otherTeam{
+-(AllianceTeam *)empireFighters{
     
-    if (!_otherTeam) {
+    if (!_empireFighters) {
         //Fetch other members
-        [self updateOtherMembers];
+        [self updateEmpireFighters];
     }
     
-    return _otherTeam;
+    return _empireFighters;
 }
 
 /**
- *  Retrieve the members of the Star Wars team. Load them if not already loaded from the network.
+ *  Retrieve the members of The Alliance team. Load them if not already loaded from the network.
  *
  *  @return An array of the Star Wars members.
  */
--(AllianceTeam *)starWarsTeam{
+-(AllianceTeam *)allianceFighters{
     
-    if (!_starWarsTeam) {
+    if (!_allianceFighters) {
         //Fetch Star Wars members
-        [self updateStarWarsMembers];
+        [self updateAllianceFighters];
     }
     
-    return _starWarsTeam;
+    return _allianceFighters;
 }
 
 /**
- *  Update the Other Members to the latest version of them from the web server.
+ *  Update the Empire Fighters to the latest version of them from the web server.
  */
--(void)updateOtherMembers {
+-(void)updateEmpireFighters {
     
     NSURL *url = [self APIURLForEndpoint:@"StarWarsMembers.json"];
     
@@ -94,12 +94,12 @@ static FTISessionManager *sharedSesson;
                 //Parse this into a real AllianceTeam, or update an existing one.
                 
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    if (!_otherTeam) {
-                        _otherTeam = [AllianceTeam instanceFromDictionary:parsedJSON];
+                    if (!_empireFighters) {
+                        _empireFighters = [AllianceTeam instanceFromDictionary:parsedJSON];
                     }
                     else
                     {
-                        [_otherTeam setAttributesFromDictionary:parsedJSON];
+                        [_empireFighters setAttributesFromDictionary:parsedJSON];
                     }
                     
                     [[NSNotificationCenter defaultCenter] postNotificationName:kFTISessionManagerDidUpdateAllianceMembers object:nil];
@@ -107,21 +107,21 @@ static FTISessionManager *sharedSesson;
             }
             else
             {
-                NSLog(@"JSON Other members error: %@", jsonError.localizedDescription);
+                NSLog(@"JSON The Empire error: %@", jsonError.localizedDescription);
             }
         }
         else
         {
-            NSLog(@"Other members error: %@", error.localizedDescription);
+            NSLog(@"The Empire error: %@", error.localizedDescription);
         }
     }] resume];
     
 }
 
 /**
- *  Update the Star Wars members to the lateste version of them from the web server.
+ *  Update the Alliance Fighters to the latest version of them from the web server.
  */
--(void)updateStarWarsMembers {
+-(void)updateAllianceFighters {
     
     NSURL *url = [self APIURLForEndpoint:@"StarWarsMembers.json"];
     
@@ -136,12 +136,12 @@ static FTISessionManager *sharedSesson;
             if (!jsonError) {
                 //Parse this into a real AllianceTeam, or update an existing one.
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    if (!_otherTeam) {
-                        _starWarsTeam = [AllianceTeam instanceFromDictionary:parsedJSON];
+                    if (!_empireFighters) {
+                        _allianceFighters = [AllianceTeam instanceFromDictionary:parsedJSON];
                     }
                     else
                     {
-                        [_starWarsTeam setAttributesFromDictionary:parsedJSON];
+                        [_allianceFighters setAttributesFromDictionary:parsedJSON];
                     }
                     
                     [[NSNotificationCenter defaultCenter] postNotificationName:kFTISessionManagerDidUpdateAllianceMembers object:nil];
@@ -149,12 +149,12 @@ static FTISessionManager *sharedSesson;
             }
             else
             {
-                NSLog(@"JSON Star Wars members error: %@", jsonError.localizedDescription);
+                NSLog(@"JSON The Alliance members error: %@", jsonError.localizedDescription);
             }
         }
         else
         {
-            NSLog(@"Star Wars members error: %@", error.localizedDescription);
+            NSLog(@"The Alliance members error: %@", error.localizedDescription);
         }
     }] resume];
 }
